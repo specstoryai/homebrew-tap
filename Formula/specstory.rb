@@ -6,20 +6,20 @@ class Specstory < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Darwin_arm64.tar.gz"
-      sha256 "580f20d68d4956c1487a639cbc86fe07a78fd844593a14126a9ba9484f8e39ae"
+      sha256 "27a73c30cb9d5c6fae8d42ee06d2f4c6effc90d501d4639787edafaf30544a59"
     else
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Darwin_x86_64.tar.gz"
-      sha256 "d20eebf4ffb41cd18294cbaaa206f6a550ef784c0db7845a1a64405d46374c28"
+      sha256 "fd0fb029b1e980daa1d8b6863d0d3d791808debf7ead93b5bf4a0499528ca347"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Linux_arm64.tar.gz"
-      sha256 "70a3ec27ae7175eaccafef6c256a92ce8ad38d51eaa415ab4424c1611c933485"
+      sha256 "052ed4d36df10125392eb550ce2404d67507514af11cc0d880c85545bdb855e5"
     else
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Linux_x86_64.tar.gz"
-      sha256 "ea047ca31f38212f64e6b761abf0a4cc519cdf4ff2d3f349e506f1c06a29d32f"
+      sha256 "de93e2c15625506fcbf2305378de92134e4aed022646a58a137244ada5ab63db"
     end
   end
 
