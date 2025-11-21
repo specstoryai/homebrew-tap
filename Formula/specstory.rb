@@ -1,25 +1,25 @@
 class Specstory < Formula
   desc "A claude code wrapper that saves your conversation history to markdown"
   homepage "https://github.com/specstoryai/getspecstory"
-  version "0.15.0"
+  version "0.16.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Darwin_arm64.tar.gz"
-      sha256 "4f226b629e97b042ee1fd1755498bf8986d06b55a6d4cf44190a09dde5746fa7"
+      sha256 "b9304b2f2ac9d71202a69871bcc8caecacf3861d8ea2fcf5447bf85b3cf9f060"
     else
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Darwin_x86_64.tar.gz"
-      sha256 "a21af7f13359897d64f2bfa9b3f7f6ea4d421a8b5389b959262eea17829e4b6f"
+      sha256 "51002ab6f661b645887a05dfb97058f22b51d4cd592f6274acebe222bf6b2822"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Linux_arm64.tar.gz"
-      sha256 "fadf71037ab839ae843131d5579313fe4b9d9b581c457732f45d1cb46b803f99"
+      sha256 "8a4f4545aa4a6a1be10a54235e7b94060b5790c07ffba9897b7ff9d4a049d57f"
     else
       url "https://github.com/specstoryai/getspecstory/releases/download/v#{version}/SpecStoryCLI_Linux_x86_64.tar.gz"
-      sha256 "c1d7d66330399cf7fc17b94f7aa5cba9dfe798a76d5bc806e8dbbe151074ba03"
+      sha256 "e6454309f31378ede29882240b8990135220fe50db8426d780715115665977fb"
     end
   end
 
