@@ -5,7 +5,7 @@ class Intent < Formula
 
   # Full release tag with URL-encoded + (%2B)
   # Update BUILD_NUMBER after each release
-  release_tag = "v0.2.0%2B556"
+  release_tag = "v0.3.0%2B570"
 
   on_macos do
     if Hardware::CPU.arm?
