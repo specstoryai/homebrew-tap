@@ -10,20 +10,20 @@ class Intent < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/intent-releases/releases/download/#{release_tag}/Intent_Darwin_arm64.zip"
-      sha256 "b0c034ef636e4cc1848929bde187de42f45276fb7e68a6b759f84a101942e0a3"
+      sha256 "4c50d353567d0da6fae51f6e6ffdfa24fff8194bfef984d73601326afd9ed3a7"
     else
       url "https://github.com/specstoryai/intent-releases/releases/download/#{release_tag}/Intent_Darwin_x86_64.zip"
-      sha256 "301b49622dfe3b53db1b7f44cd49b19ca9b2b1eea2f5383bd860acfb2e96e600"
+      sha256 "37440f897b1e31a6e000f4d1a397ba675040d43cfc301abe484a179709dc6db6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/intent-releases/releases/download/#{release_tag}/Intent_Linux_arm64.tar.gz"
-      sha256 "3f7a124528cf331fc926e051064cfbdd7a9a2832ce47e570ce4c10f2e23f591b"
+      sha256 "0efd9f2d633d72540eeb8580fbcb231317448eef5bf2a1d74b1910b84550023b"
     else
       url "https://github.com/specstoryai/intent-releases/releases/download/#{release_tag}/Intent_Linux_x86_64.tar.gz"
-      sha256 "9f6b62f91b77d49f5ff2576d719cb11b290802c5b5d963f13bfc0fab452f47fc"
+      sha256 "076f992a0d9d28c31e699e5a0ccc6b59ccdbc0cfc08ea4df5aa3c0e0ec1fe940"
     end
   end
 
