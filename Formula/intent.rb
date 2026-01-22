@@ -1,7 +1,7 @@
 class Intent < Formula
   desc "Version control system for coding agents that tracks file changes linked to conversations"
   homepage "https://github.com/specstoryai/intent"
-  version "0.2.0"
+  version "0.3.0"
 
   # Full release tag with URL-encoded + (%2B)
   # Update BUILD_NUMBER after each release
