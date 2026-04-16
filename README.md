@@ -1,10 +1,29 @@
-# Homebrew Tap for SpecStory CLI
+# SpecStory Homebrew Tap
 
-This is a Homebrew tap for the SpecStory CLI.
+Homebrew formulas for SpecStory tools.
+
+## Formulas
+
+| Formula     | Description                       |
+|-------------|-----------------------------------|
+| `stoa`      | Version control for coding agents |
+| `specstory` | SpecStory CLI wrapper             |
 
 ## Installation
 
-```bash
+```zsh
 brew tap specstoryai/tap
+
+# Stoa CLI
+brew install stoa
+
+# SpecStory CLI
 brew install specstory
+```
+
+## Upgrading
+
+```zsh
+brew update
+brew upgrade stoa
 ```
