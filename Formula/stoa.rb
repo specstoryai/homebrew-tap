@@ -1,28 +1,28 @@
 class Stoa < Formula
   desc "Version control system for coding agents that tracks file changes linked to conversations"
   homepage "https://github.com/specstoryai/stoa-releases"
-  version "0.7.1"
+  version "0.8.0"
 
   # Full release tag with URL-encoded + (%2B)
-  release_tag = "v0.7.1%2B210"
+  release_tag = "v0.8.0%2B318"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/stoa-releases/releases/download/#{release_tag}/Stoa_Darwin_arm64.zip"
-      sha256 "f52fde8ea42a7dd682abedc2f167e420724336b52721ae5f53bfbbc6521bc751"
+      sha256 "0d4182b6b349627e86e89391cdd2768e90bf311cfaa3e1d30b0cf47414e01530"
     else
       url "https://github.com/specstoryai/stoa-releases/releases/download/#{release_tag}/Stoa_Darwin_x86_64.zip"
-      sha256 "c43a58c0433fce6a23a68cbd9b20b01aba812ecfddfe081e309ff91419c9d761"
+      sha256 "0a428b9cb964f1eae1c70dd7df298af2e72819ca7d9255dd0f7fe2d5eaf93576"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/specstoryai/stoa-releases/releases/download/#{release_tag}/Stoa_Linux_arm64.tar.gz"
-      sha256 "06c1043a5e7459f6d8aac13ebe9e71bd5e9ce353bcf81e3535cdb53fffdc7c20"
+      sha256 "b898a31ff54cbc254fffa0b09383f3940328fa0b7c8d971cd05a4c3fd24e6642"
     else
       url "https://github.com/specstoryai/stoa-releases/releases/download/#{release_tag}/Stoa_Linux_x86_64.tar.gz"
-      sha256 "eab45660bcd406ae238ebcc7adae3bf902fef1a4ce432ff7fc46bc47e85bede3"
+      sha256 "09a5d826a4bc6fffa2790e430d3ba9159b7a796ebe316ac8caa26f09796b64eb"
     end
   end
 
